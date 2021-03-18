@@ -1,0 +1,48 @@
+
+/* Add your profile image here */
+/*.Photo{
+    background-image:
+}*/
+/* Projects Photo */
+#programming{
+    background-image: url('https://i.ibb.co/tLRsyQg/2.jpg');
+    cursor: none;
+}
+#project2{
+    background-image: url('https://i.ibb.co/rw534Mq/1.jpg');
+    cursor: none;
+}
+#project3{
+    background-image: url('https://i.ibb.co/483dbjc/3.jpg');
+    cursor: none;
+}
+#project4{
+    background-image: url('https://i.ibb.co/Rp9hLdN/4.jpg');
+    cursor: none;
+}
+#project5{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
+    cursor: none;
+}
+#project6{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    cursor: none;
+}
+/* Miscelaneous Activities photo
+#misc1{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    cursor: none;
+}
+#misc2{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    cursor: none;
+}
+#misc3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    cursor: none;
+
+}*/
+/* Contact form parallax effect image */
+.parallax{
+    background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
