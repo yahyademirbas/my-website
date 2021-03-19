@@ -11,7 +11,7 @@ const ParticlesBackground = () => {
                 params={{
                 "particles": {
                     "number": {
-                        "value": 75,
+                        "value": 5,
                         "density": {
                             "enable": false
                         }
@@ -20,7 +20,7 @@ const ParticlesBackground = () => {
                         "value": "#887ecb"
                     },
                     "size": {
-                        "value": 10,
+                        "value": 80,
                         "random": true
                     },
                     "move": {
@@ -34,13 +34,13 @@ const ParticlesBackground = () => {
                 "interactivity": {
                     "events": {
                         "onclick": {
-                            "enable": true,
+                            "enable": false,
                             "mode": "remove"
                         }
                     },
                     "modes": {
                         "remove": {
-                            "particles_nb": 5
+                            "particles_nb": 4
                         }
                     }
                 }
@@ -54,17 +54,17 @@ const ParticlesBackground = () => {
                     "enable": true
                 },
                 "number": {
-                    "value": 100,
+                    "value": 30,
                     "density": {
                         "enable": false
                     }
                 },
                 "color": "#887ecb",
                 "size": {
-                    "value": 8,
+                    "value": 4,
                     "random": true,
                     "anim": {
-                        "speed": 3,
+                        "speed": 2,
                         "size_min": 0.4
                     }
                 },
@@ -74,7 +74,7 @@ const ParticlesBackground = () => {
                 },
                 "move": {
                     "random": true,
-                    "speed": 1,
+                    "speed": 0.5,
                     "direction": "bottom",
                     "out_mode": "out"
                 }
@@ -94,7 +94,7 @@ const ParticlesBackground = () => {
                     "bubble": {
                         "distance": 250,
                         "duration": 2,
-                        "size": 6,
+                        "size": 3,
                         "opacity": 0.4
                     },
                     "push": {

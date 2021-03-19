@@ -6,7 +6,7 @@ console.log()
 
 const About = () => {
     return (
-        <div id="about" className="effect2">
+        <div id="about">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
             <div className="col-12 offset-md-1 col-md-6 about">
                 <div className="About-title-box">

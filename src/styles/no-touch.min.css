@@ -78,7 +78,7 @@ body {
   left: 10px;
   width: 50%;
   top: 80%;
-  max-width: 300px;
+  max-width: 320px;
   background: #777;
   -webkit-box-shadow: 0 15px 10px #777;
   -moz-box-shadow: 0 15px 10px #777;
@@ -107,8 +107,8 @@ body {
   background-color: #000;
 }*/
 .about-text {
-  width: 172%;
-  padding: 2%;
+  width: 150%;
+  padding: 10%;
   text-align: justify;
   color: #adadad
 }
@@ -118,7 +118,7 @@ body {
 }
 .About-title-box {
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
@@ -444,7 +444,7 @@ input:checked + .slider:before {
   color: #000;
   background: var(--primary-color);
 }
-@media (max-width: 800px) {
+@media (max-width: 640px) {
   .lead {
     font-weight: 300;
   }
@@ -459,18 +459,18 @@ input:checked + .slider:before {
     text-decoration-color: (0, 0, 0, 0.1);
   }
   .about-text {
-    width: 100%;
+    width: 80%;
     text-align: center;
   }
   .red-line::before {
     bottom: 590px;
   }
   .effect2 {
-    width: 100%;
+    width: 90%;
   }
   .skills {
     color: #adadad;
-    padding: 10% 5%;
+    padding: 20% 10%;
   }
   .third {
     width: 100%;
