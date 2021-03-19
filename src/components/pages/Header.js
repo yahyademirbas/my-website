@@ -12,7 +12,7 @@ const Header = () => {
         })
     }
 
-    const toggleDarkMode = () =>  {/*
+    /*const toggleDarkMode = () =>  {/*
         document.documentElement.classList.toggle('dark-mode')
         document.getElementById('not-dark').classList.toggle('inverse-dark')
         document.getElementById('not').classList.toggle('inverse-dark')
@@ -24,8 +24,8 @@ const Header = () => {
         if (document.documentElement.classList.contains('dark-mode'))
           localStorage.setItem('mode', 'Dark')
         else
-          localStorage.setItem('mode', 'Light')*/
-        }
+          localStorage.setItem('mode', 'Light')
+        }*/
 
     return (
         <div>
@@ -37,7 +37,7 @@ const Header = () => {
             <img id="not-dark" onClick={scrollTo} alt="Go to top" title="Go to top" className="gtp" src="profile.png"></img>
         </div>
     )
-    toggleDarkMode();
+
 
 }
 
