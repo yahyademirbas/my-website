@@ -13,12 +13,7 @@ const Contact = () => {
                 </center>
                 <div className="container">
             <div className="git-cont row">
-                <div className="col-12 col-sm-6 half">
-                    <form action={contact.contactUrl ? contact.contactUrl : ""} method={contact.contactUrl ? "POST" : "GET"}>
-                        <button style={{cursor: 'pointer'}} type="submit"><label style={{cursor: 'pointer'}} id="not-dark">Contact Me</label></button>
-                    </form>
-                </div>
-                <div className="col-12 col-sm-6 half">
+                <div className="col-12 half">
                     <p className="lead">
                         {contact.pitch}
                     </p>
@@ -29,6 +24,7 @@ const Contact = () => {
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                     {social.spotify && <a title="Visit Spotify profile" rel="noopener noreferrer" target="_blank" href={social.spotify}><i className="fab fa-spotify"></i></a>}
                     {social.youtube && <a title="Visit YouTube profile" rel="noopener noreferrer" target="_blank" href={social.youtube}><i className="fab fa-youtube"></i></a>}
+                    {social.mail && <a title="Mail me" rel="noopener noreferrer" target="_blank" href={social.mail}><i className="fab fa-rocketchat"></i></a>}
                 </div>
                 </center>
                 </div>

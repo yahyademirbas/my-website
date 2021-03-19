@@ -12,7 +12,7 @@ const Header = () => {
         })
     }
 
-    const toggleDarkMode = () =>  {
+    const toggleDarkMode = () =>  {/*
         document.documentElement.classList.toggle('dark-mode')
         document.getElementById('not-dark').classList.toggle('inverse-dark')
         document.getElementById('not').classList.toggle('inverse-dark')
@@ -24,7 +24,7 @@ const Header = () => {
         if (document.documentElement.classList.contains('dark-mode'))
           localStorage.setItem('mode', 'Dark')
         else
-          localStorage.setItem('mode', 'Light')
+          localStorage.setItem('mode', 'Light')*/
         }
 
     return (
@@ -32,10 +32,6 @@ const Header = () => {
             <div className="Header">
                 <h1>{ `I'm ${header.name}` }</h1>
             <p className="line-1 anim-typewriter">and this is me in a nutshell...</p>
-            <label className="switch">
-                <input id="mode-switch" onClick={toggleDarkMode} type="checkbox"/>
-                <span className="slider round"></span>
-            </label>
             <HeaderButton/>
             </div>
             <img id="not-dark" onClick={scrollTo} alt="Go to top" title="Go to top" className="gtp" src="profile.png"></img>

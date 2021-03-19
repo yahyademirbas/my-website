@@ -10,7 +10,7 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "Hello, I am Yahya. I am studying MIS at Boğaziçi University and trying to improve myself in the field of programming, especially in the field of \"game development\". In this respect, I have learned /learning the working principles of game engines, design patterns, 2D/3D art and tonal harmony. I am slowly working on a game that I have developed completely with its music, art and codes, I am progressing by learning and can say that the part that I have enjoyed the most and want to move forward is coding. Besides, I am a musician, multi-instrumentalist. I have an amateur knowledge of recording technologies and can produce, compose original works. I am also working as a manager in the field of artistic agency. In addition, I'm an amateur guitar maker. This site was created mainly as a portfolio for companies. Maybe over time I'll add devlogs and guitar making vlogs, who knows…"
+    paragraph: "Hello, I am Yahya. I am studying MIS at Boğaziçi University and trying to improve myself in the field of programming, especially in the field of \"game development\". In this respect, I have learned/learning the working principles of game engines, design patterns, 2D/3D art and tonal harmony. I am slowly working on a game that I have developed completely with its music, art and codes, I am progressing by learning and can say that the part that I have enjoyed the most and want to move forward is coding. Besides, I am a musician, multi-instrumentalist. I have an amateur knowledge of recording technologies and can produce, compose original works. I am also working as a manager in the field of artistic agency. In addition, I'm an amateur guitar maker. This site was created mainly as a portfolio for companies. Maybe over time I'll add devlogs and guitar making vlogs, who knows…"
 }
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -127,6 +127,7 @@ const contact = {
 }
 // Social Media Links
 const social = {
+    mail: 'https://form.jotform.com/210765485333963',
     github: 'https://github.com/yahyademirbas',
     linkedin: 'https://www.linkedin.com/in/yahyademirbas',
     instagram: 'https://www.instagram.com/yahyademirbash/',
