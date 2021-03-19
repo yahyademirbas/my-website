@@ -328,11 +328,11 @@ textarea:focus {
   border: #fff;
   outline: #fff;
   position: absolute;
-  padding: 5px 15px;
-  padding-bottom: 7px;
-  border-radius: 3px;
-  left: 44%;
-  top: 90%;
+  padding: 10px 20px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  right: 43%;
+  top: 83%;
 }
 .fa-eye {
   color: #000;
@@ -444,7 +444,7 @@ input:checked + .slider:before {
   color: #000;
   background: var(--primary-color);
 }
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   .lead {
     font-weight: 300;
   }
