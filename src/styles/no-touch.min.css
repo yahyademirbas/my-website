@@ -444,7 +444,7 @@ input:checked + .slider:before {
   color: #000;
   background: var(--primary-color);
 }
-@media (max-width: 350px) {
+@media (max-width: 800px) {
   .lead {
     font-weight: 300;
   }
