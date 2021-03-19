@@ -22,7 +22,7 @@ const skillsBar = [
         name: "Unity Photon Network 2 (PUN2)",
         value: 21
     },{
-        name: "JAVA (OOP Programming, JDBC & Hibernate, Web Apps with PostgreSQL, Android Programming)",
+        name: "JAVA (OOP, JDBC & Hibernate, PostgreSQL, Android)",
         value: 52
     },{
         name: "Video Editing",
@@ -67,14 +67,14 @@ const projects = [
         // Add image in './styles/images.css' in #project3
         id: "project3",
         name: "3D Modeling For Games, Printing, CNC",
-        skills: ["Blender, AutoCAD"],
+        skills: ["Blender, AutoCAD, Fusion 360"],
         //url: "https://github.com/kaustubhai"
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
-        name: "Guitar Making",
-        skills: ["Handmade, Unique, Electric Guitar"],
+        name: "Instrument Making",
+        skills: ["Handmade unique electric guitars"],
         //url: "https://github.com/kaustubhai"
     },/*
     {

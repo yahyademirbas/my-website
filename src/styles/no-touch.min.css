@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   cursor: crosshair;
-  background-color: #fff;
+  background-color: #000;
 }
 .lead {
   font-weight: 400;
@@ -23,7 +23,7 @@ body {
   font-family: Montserrat, sans-serif;
 }
 .Header h1 {
-  color: #000;
+  color: #fff;
   margin: auto;
   text-align: center;
   font-size: 5.1rem;
@@ -31,6 +31,7 @@ body {
 }
 .Header p {
   margin-top: 125px;
+  color: #adadad;
 }
 .particle {
   position: absolute!;
@@ -42,6 +43,7 @@ body {
   text-decoration-color: var(--primary-color);
 }
 .skills {
+  color: #adadad;
   padding: 10%;
 }
 .progress-block {
@@ -63,7 +65,7 @@ body {
 .effect2 {
   position: relative;
   width: 70%;
-  background: #fff;
+  background: #000;
   padding: 5%;
   margin: 10% auto;
 }
@@ -105,9 +107,10 @@ body {
   background-color: #000;
 }*/
 .about-text {
-  width: 150%;
+  width: 172%;
   padding: 2%;
   text-align: justify;
+  color: #adadad
 }
 .red-line {
   color: var(--primary-color);
@@ -137,6 +140,7 @@ body {
   margin-top: 10px;
   margin-left: 3%;
   font-weight: 500;
+  color: #adadad;
 }
 .project-card h2:hover {
   color: var(--hover-color);
@@ -196,20 +200,21 @@ body {
   box-sizing: border-box;
   display: block;
   padding: 3rem;
-  background-color: #fff;
+  background-color: #000;
 }
 .git-head-div {
   box-sizing: border-box;
   padding-top: 5%;
   padding-bottom: 15px;
   width: 30%;
-  border-bottom: 3px solid #000;
-  color: #000;
+  border-bottom: 3px solid #fff;
+  color: #fff;
   font-weight: 500;
   text-align: center;
 }
 .git-cont {
   display: inline-block;
+  color: #adadad;
 }
 .half {
   display: inline-block;
@@ -239,7 +244,7 @@ textarea:focus {
   padding: 10px 15px;
   font-size: 1rem;
   border-radius: 2rem;
-  color: #fff;
+  color: #000;
   background-color: var(--primary-color);
   box-shadow: none;
   outline: 0;
@@ -283,7 +288,7 @@ textarea:focus {
   height: 30px;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 0.5;
 }
 .navbar {
@@ -294,7 +299,7 @@ textarea:focus {
   box-shadow: 0 8px 6px -6px #646464;
 }
 .nav-link {
-  color: #000 !important;
+  color: #fff !important;
 }
 .is-current {
   color: var(--primary-color);
@@ -303,7 +308,7 @@ textarea:focus {
   text-decoration-color: var(--primary-color);
 }
 .Copy {
-  color: #fff !important;
+  color: #000 !important;
   font-weight: 500;
   padding-top: 2%;
 }
@@ -319,9 +324,9 @@ textarea:focus {
 }
 .see {
   background-color: var(--primary-color);
-  color: #fff;
-  border: #000;
-  outline: #000;
+  color: #000;
+  border: #fff;
+  outline: #fff;
   position: absolute;
   padding: 5px 15px;
   padding-bottom: 7px;
@@ -330,7 +335,7 @@ textarea:focus {
   top: 90%;
 }
 .fa-eye {
-  color: #fff;
+  color: #000;
   font-size: 20px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -377,15 +382,15 @@ textarea:focus {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #fff;
+  background-color: #000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 input:checked + .slider {
-  background-color: #000;
+  background-color: #fff;
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 1px #fff;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
@@ -432,14 +437,14 @@ input:checked + .slider:before {
   }
 }
 ::-moz-selection {
-  color: #fff;
+  color: #000;
   background: var(--primary-color);
 }
 ::selection {
-  color: #fff;
+  color: #000;
   background: var(--primary-color);
 }
-@media (max-width: 800px) {
+@media (max-width: 200px) {
   .lead {
     font-weight: 300;
   }
@@ -464,6 +469,7 @@ input:checked + .slider:before {
     width: 100%;
   }
   .skills {
+    color: #adadad;
     padding: 10% 5%;
   }
   .third {
