@@ -107,8 +107,8 @@ body {
   background-color: #000;
 }*/
 .about-text {
-  width: 150%;
-  padding: 10%;
+  width: 170%;
+  padding: 2%;
   text-align: justify;
   color: #adadad
 }
@@ -119,6 +119,7 @@ body {
 .About-title-box {
   box-sizing: border-box;
   width: 100%;
+  padding: 2%;
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
