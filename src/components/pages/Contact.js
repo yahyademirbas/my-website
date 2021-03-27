@@ -13,7 +13,7 @@ const Contact = () => {
                 </center>
                 <div className="container">
             <div className="git-cont row">
-                <div className="col-12 half">
+                <div className="col-12">
                     <p className="lead">
                         {contact.pitch}
                     </p>

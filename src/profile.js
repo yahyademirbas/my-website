@@ -40,8 +40,8 @@ const skillsBar = [
         name: "Python",
         value: 25
     }, {
-        name: "Cybersecurity & Forensic Analysis",
-        value: 20
+        name: "Currently learning about Cyber Security, Pen Test etc.",
+        value: 10
     },
 ]
 // Edit your projects, its name, your skills used to make it, and the url.

@@ -30,7 +30,7 @@ body {
   position: absolute;
 }
 .Header p {
-  margin-top: 125px;
+  margin-top: 120px;
   color: #adadad;
 }
 .particle {
@@ -107,8 +107,9 @@ body {
   background-color: #000;
 }*/
 .about-text {
-  width: 170%;
+  width: 150%;
   padding: 2%;
+  margin-left: 8%;
   text-align: justify;
   color: #adadad
 }
@@ -120,15 +121,16 @@ body {
   box-sizing: border-box;
   width: 100%;
   padding: 2%;
+  margin-left: 15%;
   padding-bottom: 5px;
   border-bottom: solid 2pxvar (--primary-color);
   margin-bottom: 15px;
 }
 .third {
-  width: 75%;
+  width: 100%;
   margin: 10% auto;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
   justify-content: center;
 }
 .project-card {
@@ -215,6 +217,7 @@ body {
 }
 .git-cont {
   display: inline-block;
+  text-align: center;
   color: #adadad;
 }
 .half {
@@ -471,16 +474,16 @@ input:checked + .slider:before {
   }
   .skills {
     color: #adadad;
-    padding: 20% 10%;
+    padding: 30% 10%;
   }
   .third {
     width: 100%;
   }
   .project-card {
-    width: 100% !important;
+    width: 80% !important;
   }
   .image-project {
-    width: 100% !important;
+    width: 80% !important;
   }
   .third {
     padding: 5%;
