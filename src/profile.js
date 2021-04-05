@@ -31,7 +31,7 @@ const skillsBar = [
         name: "Photoshop",
         value: 91
     },{
-        name: "CAD & 3D Drawing",
+        name: "CAD & 3D Modeling",
         value: 31
     },{
         name: "DAWs (Cubase & Reaper)",
