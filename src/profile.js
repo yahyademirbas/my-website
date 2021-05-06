@@ -17,11 +17,9 @@ const about = {
 const skillsBar = [
     {
         name: "Unity 3D & C#",
-        value: 75
-    },{
-        name: "Unity Photon Network 2 (PUN2)",
-        value: 21
-    },{
+        value: 53
+    },
+    {
         name: "JAVA (OOP, JDBC & Hibernate, PostgreSQL, Android)",
         value: 52
     },{
@@ -32,7 +30,7 @@ const skillsBar = [
         value: 91
     },{
         name: "CAD & 3D Modeling",
-        value: 31
+        value: 30
     },{
         name: "DAWs (Cubase & Reaper)",
         value: 88
